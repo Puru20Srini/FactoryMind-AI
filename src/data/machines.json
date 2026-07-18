@@ -1,0 +1,52 @@
+[
+  {
+    "id": "M-101",
+    "name": "CNC Machine",
+    "line": "Line A",
+    "status": "Running",
+    "temperature": 62,
+    "vibration": 2.1,
+    "rpm": 2800,
+    "health": 96
+  },
+  {
+    "id": "M-102",
+    "name": "Hydraulic Press",
+    "line": "Line B",
+    "status": "Warning",
+    "temperature": 88,
+    "vibration": 7.5,
+    "rpm": 2400,
+    "health": 71
+  },
+  {
+    "id": "M-103",
+    "name": "Conveyor Motor",
+    "line": "Line C",
+    "status": "Critical",
+    "temperature": 96,
+    "vibration": 9.8,
+    "rpm": 2100,
+    "health": 42
+  },
+  {
+    "id": "M-104",
+    "name": "Packaging Robot",
+    "line": "Line A",
+    "status": "Running",
+    "temperature": 54,
+    "vibration": 1.8,
+    "rpm": 3000,
+    "health": 98
+  },
+  {
+    "id": "M-105",
+    "name": "Laser Cutter",
+    "line": "Line D",
+    "status": "Maintenance",
+    "temperature": 45,
+    "vibration": 0,
+    "rpm": 0,
+    "health": 100
+  }
+]

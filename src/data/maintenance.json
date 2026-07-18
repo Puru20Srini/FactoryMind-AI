@@ -1,0 +1,42 @@
+[
+  {
+    "machineId": "M-101",
+    "lastMaintenance": "2026-07-01",
+    "previousFailures": 0,
+    "lastIssue": "Routine Inspection",
+    "averageRepairTime": "30 minutes",
+    "maintenanceStatus": "OK"
+  },
+  {
+    "machineId": "M-102",
+    "lastMaintenance": "2026-06-20",
+    "previousFailures": 3,
+    "lastIssue": "Bearing Wear",
+    "averageRepairTime": "2 hours",
+    "maintenanceStatus": "OVERDUE"
+  },
+  {
+    "machineId": "M-103",
+    "lastMaintenance": "2026-05-28",
+    "previousFailures": 5,
+    "lastIssue": "Motor Overheating",
+    "averageRepairTime": "4 hours",
+    "maintenanceStatus": "CRITICAL"
+  },
+  {
+    "machineId": "M-104",
+    "lastMaintenance": "2026-07-10",
+    "previousFailures": 1,
+    "lastIssue": "Sensor Calibration",
+    "averageRepairTime": "45 minutes",
+    "maintenanceStatus": "OK"
+  },
+  {
+    "machineId": "M-105",
+    "lastMaintenance": "2026-07-15",
+    "previousFailures": 0,
+    "lastIssue": "Scheduled Maintenance",
+    "averageRepairTime": "1 hour",
+    "maintenanceStatus": "MAINTENANCE"
+  }
+]

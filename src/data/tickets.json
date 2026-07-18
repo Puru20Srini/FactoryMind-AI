@@ -1,0 +1,18 @@
+[
+  {
+    "ticketId": "TICKET-1784312603252",
+    "machineId": "M-102",
+    "issue": "Bearing Wear",
+    "technician": "John",
+    "status": "OPEN",
+    "createdAt": "2026-07-17T18:23:23.252Z"
+  },
+  {
+    "ticketId": "TICKET-1784350678629",
+    "machineId": "M-101",
+    "issue": "test",
+    "technician": "test",
+    "status": "OPEN",
+    "createdAt": "2026-07-18T04:57:58.629Z"
+  }
+] 

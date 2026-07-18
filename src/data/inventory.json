@@ -1,0 +1,30 @@
+[
+  {
+    "partId": "P-001",
+    "partName": "Bearing",
+    "stock": 12,
+    "minimumStock": 5,
+    "warehouse": "Main Warehouse"
+  },
+  {
+    "partId": "P-002",
+    "partName": "Hydraulic Oil",
+    "stock": 8,
+    "minimumStock": 3,
+    "warehouse": "Main Warehouse"
+  },
+  {
+    "partId": "P-003",
+    "partName": "Cooling Fan",
+    "stock": 2,
+    "minimumStock": 5,
+    "warehouse": "Warehouse B"
+  },
+  {
+    "partId": "P-004",
+    "partName": "Motor",
+    "stock": 1,
+    "minimumStock": 2,
+    "warehouse": "Warehouse C"
+  }
+]

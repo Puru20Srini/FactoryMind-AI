@@ -1,0 +1,23 @@
+[
+  {
+    "id": "T-101",
+    "name": "John",
+    "specialization": "Mechanical",
+    "available": true,
+    "shift": "Morning"
+  },
+  {
+    "id": "T-102",
+    "name": "Sarah",
+    "specialization": "Electrical",
+    "available": true,
+    "shift": "Evening"
+  },
+  {
+    "id": "T-103",
+    "name": "David",
+    "specialization": "Hydraulic",
+    "available": false,
+    "shift": "Night"
+  }
+]

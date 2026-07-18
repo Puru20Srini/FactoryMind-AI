@@ -1,0 +1,29 @@
+[
+  {
+    "line": "Line A",
+    "status": "Running",
+    "output": 520,
+    "target": 550,
+    "efficiency": 95,
+    "oee": 92,
+    "machineCount": 5
+  },
+  {
+    "line": "Line B",
+    "status": "Maintenance",
+    "output": 180,
+    "target": 420,
+    "efficiency": 58,
+    "oee": 54,
+    "machineCount": 4
+  },
+  {
+    "line": "Line C",
+    "status": "Running",
+    "output": 470,
+    "target": 500,
+    "efficiency": 94,
+    "oee": 90,
+    "machineCount": 6
+  }
+]
