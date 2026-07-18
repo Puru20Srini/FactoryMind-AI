@@ -1,49 +1,229 @@
-# NitroStack Starter Template
+# 🏭 FactoryMind AI
 
-Minimal template for learning NitroStack fundamentals with a calculator-focused
-MCP server and basic widgets.
+> An AI-powered Smart Manufacturing Assistant built with **NitroStack** and the **Model Context Protocol (MCP)**.
 
-## What This Template Includes
+FactoryMind AI enables engineers, plant managers, and maintenance teams to interact with factory systems using natural language. It connects AI with manufacturing data to provide real-time insights, automate maintenance workflows, and improve operational efficiency in Industry 4.0 environments.
 
-- `calculator` module with tools, resources, and prompts
-- TypeScript + Zod validation setup
-- Widget-ready project structure
-- Production-friendly npm scripts
+---
 
-## Quick Start
+## ✨ Features
+
+- 🤖 AI-powered manufacturing assistant
+- 🔧 Machine health analysis
+- 📈 Executive KPI dashboard
+- ⚠️ Predictive maintenance recommendations
+- 📦 Spare part availability checking
+- 👨‍🔧 Automatic technician assignment
+- 🎫 Maintenance ticket creation
+- 🏭 Factory production monitoring
+- 💬 Natural language interaction with factory systems using MCP
+
+---
+
+## 🛠 Tech Stack
+
+- **NitroStack**
+- **Model Context Protocol (MCP)**
+- TypeScript
+- Node.js
+- OpenAI
+- REST APIs
+
+---
+
+## 📁 Project Structure
+
+```
+FactoryMind-AI/
+│
+├── src/
+│   ├── prompts/
+│   ├── tools/
+│   ├── services/
+│   ├── workflows/
+│   └── index.ts
+│
+├── .env.example
+├── package.json
+├── README.md
+└── LICENSE
+```
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
 
 ```bash
-npx @nitrostack/cli init my-server --template typescript-starter
-cd my-server
+git clone https://github.com/<your-username>/FactoryMind-AI.git
+
+cd FactoryMind-AI
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Configure Environment Variables
+
+Create a `.env` file from `.env.example`.
+
+Example:
+
+```env
+OPENAI_API_KEY=your_api_key
+FACTORY_API_URL=http://localhost:3000
+FACTORY_API_TOKEN=your_token
+```
+
+---
+
+## ▶️ Run the Project
+
+Development
+
+```bash
 npm run dev
 ```
 
-## Common Commands
+Production
 
 ```bash
-npm run dev
 npm run build
 npm start
 ```
 
-## NitroStudio
+---
 
-NitroStudio is the recommended way to test and debug this template during
-development.
+# MCP Setup
 
-- Download: <https://nitrostack.ai/studio>
-- Studio: <https://nitrostack.ai/studio>
+FactoryMind AI is built on the **Model Context Protocol (MCP)** using **NitroStack**.
 
-## Links
+Configure your MCP server and register the available tools before starting the application.
 
-- Docs: <https://docs.nitrostack.ai>
-- Templates docs: <https://docs.nitrostack.ai/templates/01-starter-template>
-- Main repository: <https://github.com/nitrocloudofficial/nitrostack>
+Example MCP configuration:
 
-## Community
+```json
+{
+  "mcpServers": {
+    "factorymind": {
+      "command": "npm",
+      "args": ["run", "start"]
+    }
+  }
+}
+```
 
-- Discord: <https://discord.gg/uVWey6UhuD>
-- X: <https://x.com/nitrostackai>
-- YouTube: <https://www.youtube.com/@nitrostackai>
-- LinkedIn: <https://linkedin.com/company/nitrostack-ai/>
-- GitHub: <https://github.com/nitrostackai>
+Once connected, the assistant can invoke manufacturing tools through MCP.
+
+---
+
+# Example Prompts
+
+```
+Analyze machine M-102.
+```
+
+```
+Show the factory dashboard.
+```
+
+```
+Show executive KPI dashboard.
+```
+
+```
+Check spare part availability for machine M-102.
+```
+
+```
+Assign the appropriate technician for machine M-102.
+```
+
+```
+Create a maintenance ticket for machine M-102.
+```
+
+```
+Analyze machine M-102, check spare part availability,
+assign a technician, and create a maintenance ticket.
+```
+
+---
+
+# Example Workflow
+
+```
+User
+   │
+   ▼
+FactoryMind AI
+   │
+   ▼
+NitroStack
+   │
+   ▼
+Model Context Protocol (MCP)
+   │
+   ├── Machine Health Tool
+   ├── Production Dashboard Tool
+   ├── Spare Parts Tool
+   ├── Technician Assignment Tool
+   └── Maintenance Ticket Tool
+   │
+   ▼
+Factory Systems / APIs
+```
+
+---
+
+## 🔒 Security
+
+- Never commit API keys or secrets.
+- Use environment variables.
+- Keep sensitive configuration inside `.env`.
+- The repository includes `.env.example` for reference.
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
+2. Create a feature branch
+
+```bash
+git checkout -b feature/new-feature
+```
+
+3. Commit your changes
+
+```bash
+git commit -m "Add new feature"
+```
+
+4. Push to GitHub
+
+```bash
+git push origin feature/new-feature
+```
+
+5. Open a Pull Request
+
+---
+
+## 👨‍💻 Author
+
+**Advaith K S**
+
+Built for smart manufacturing using **NitroStack** and the **Model Context Protocol (MCP)** to simplify factory operations through AI.
